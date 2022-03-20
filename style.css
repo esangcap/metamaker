@@ -1,0 +1,31 @@
+
+body {
+   box-sizing: border-box;
+   max-width: 450px;   
+}
+.divMeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;      
+    width: 100%;
+} 
+
+.texter input[type=text] {
+    width: 370px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;    
+}
+input[type=button], input[type=submit] {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+      
+}
